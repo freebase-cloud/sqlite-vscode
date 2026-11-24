@@ -1,0 +1,16 @@
+{
+  "name": "sqlite-vscode",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "sqlite create, seed, read, update and cleanup over the Freebase HTTPS API.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/demo.mjs",
+    "test": "node --test",
+    "demo": "node --env-file=.env src/demo.mjs"
+  }
+}

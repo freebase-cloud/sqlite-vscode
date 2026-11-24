@@ -1,0 +1,6 @@
+{
+  "name": "sqlite-vscode",
+  "engine": "sqlite",
+  "slug": "sqlite",
+  "kind": "starter"
+}
